@@ -68,6 +68,7 @@ Each intent triggers a different workflow with dynamically generated steps.
 
 ## 🏛️ Architecture Overview
 
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                        User Input                           │
 └─────────────────────────┬───────────────────────────────────┘
@@ -105,6 +106,7 @@ Each intent triggers a different workflow with dynamically generated steps.
 ┌─────────────────────────────────────────────────────────────┐
 │            Final Response / Approval Flow                   │
 └─────────────────────────────────────────────────────────────┘
+```
 
 ## ⚙️ Example Workflow
 
@@ -171,7 +173,7 @@ TOOL_EXECUTION
 WORKFLOW_COMPLETED
 
 ## 🏗️ Project Structure
-
+```
 app/
 ├── agents/          # LLM-based intent detection
 ├── api/
@@ -185,6 +187,7 @@ app/
 ├── workflow/        # Workflow planning and orchestration
 └── models/          # Pydantic data models
 main.py              # Application entry point
+```
 
 ## ⚙️ Setup Instructions
 Prerequisites:
