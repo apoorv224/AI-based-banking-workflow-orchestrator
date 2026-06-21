@@ -1,4 +1,4 @@
-# 🏦 AI BAsed Banking Workflow Orchestrator
+# 🏦 AI Based Banking Workflow Orchestrator
 An LLM-powered workflow orchestration engine for intelligent banking automation
 A production-style AI-driven backend system built with FastAPI, Llama 3.1 (Ollama), and a modular execution architecture. This engine demonstrates how modern banking platforms can automate internal operations using LLM reasoning, workflow planning, policy enforcement, tool execution, audit logging, and human approval gates.
 ```
